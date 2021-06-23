@@ -1,0 +1,462 @@
+body {
+    background-color: #030226;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5%;
+}
+
+#header_wrapper {
+    display: flex;
+    height: 20vh;
+}
+
+header {
+    flex: 1;
+    height: auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.visited {
+    color: #3621BF;
+}
+
+#logo {
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+#menu {
+    flex: 3;
+    background-color: #051033;
+    text-align: right;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    top: 0;
+    right: 0;
+    font-family: arial nova light;
+}
+
+body {
+    background-color: #051033;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: arial nova light;
+}
+
+#waterfall {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: banana;
+    font-size: 2.75em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#main {
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #051033;
+}
+
+#main img {
+    float: left;
+    padding-right: 5px;
+}
+
+#whoIAM {
+    float: left;
+    margin: 0.75em;
+    height: 200px;
+    width: auto;
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: arial nova light;
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    color: #ffffff;
+    font-family: arial nova light;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+#canvas {
+    float: left;
+    padding: 10px;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.5em;
+    font-family: arial nova light;
+}
+
+#portfolio {
+    clear: both;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.portfolio {
+    clear: both;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: space-around;
+    justify-content: space-around;
+}
+
+.portfolio img {
+    opacity: 0.8;
+    cursor: pointer;
+    width: 300px;
+    height: auto;
+    padding-top: 3%;
+}
+
+.portfolio img:hover {
+    opacity: 1;
+}
+
+#digital_wrapper {
+    display: flex;
+    height: 450hv;
+}
+
+#digital {
+    padding-top: 2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.digital {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: space-around;
+    text-align: center;
+}
+
+.digital img {
+    opacity: 0.8;
+    width: 450px;
+    height: auto;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+
+.digital img:hover {
+    opacity: 1;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #051033;
+    padding: 20px;
+    font-family: arial nova light;
+}
+
+#contact {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit {
+    padding: 5px 11px;
+    text-align: center;
+    background-color: #1F21FF;
+    color: #fff;
+    text-align: center;
+}
+
+#beLogo {
+    width: 55px;
+    height: 52px;
+}
+
+#last {
+    text-align: center;
+}
+
+footer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        width: 95%;
+        height: auto;
+    }
+    #wrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #header_wrapper {
+        display: flex;
+    }
+    header {
+        flex: 1;
+        text-align: center;
+        padding-bottom: 2%;
+        padding-top: 10%;
+        text-align: center;
+    }
+    #menu {
+        flex: 3;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .top {
+        flex: 1;
+    }
+    h1 {
+        text-align: center;
+        font-family: banana;
+        font-size: 1.90em;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    #main {
+        flex: 1;
+        text-align: center;
+    }
+    #canvas {
+        flex: 1;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #portfolio {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        flex-shrink: 3;
+    }
+    #digital_wrapper {
+        display: flex;
+    }
+    #digital {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .digital {
+        display: flex;
+    }
+    #contact {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        align-items: space-around;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #wrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #header_wrapper {
+        display: flex;
+        height: auto;
+    }
+    header {
+        flex: 1;
+        text-align: center;
+        padding-bottom: 2%;
+        padding-top: 10%;
+        text-align: center;
+    }
+    #menu {
+        flex: 3;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .top {
+        flex: 1;
+    }
+    h1 {
+        text-align: center;
+        font-family: banana;
+        font-size: 1.90em;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    #main {
+        flex: 1;
+        text-align: center;
+    }
+    #canvas {
+        flex: 1;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #portfolio {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        flex-shrink: 3;
+    }
+    #digital_wrapper {
+        display: flex;
+    }
+    #digital {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .digital {
+        display: flex;
+    }
+    #contact {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        align-items: space-around;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023) {
+    body {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #wrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #header_wrapper {
+        display: flex;
+        height: auto;
+    }
+    header {
+        flex: 1;
+        text-align: center;
+        padding-bottom: 2%;
+        padding-top: 10%;
+        text-align: center;
+    }
+    #menu {
+        flex: 3;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .top {
+        flex: 1;
+    }
+    h1 {
+        text-align: center;
+        font-family: banana;
+        font-size: 1.90em;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    #main {
+        flex: 1;
+        text-align: center;
+    }
+    #canvas {
+        flex: 1;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #portfolio {
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        flex-shrink: 3;
+    }
+    #digital_wrapper {
+        display: flex;
+    }
+    #digital {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .digital {
+        display: flex;
+    }
+    #contact {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    footer {
+        width: 100%;
+        display: flex;
+        align-items: space-around;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+}
